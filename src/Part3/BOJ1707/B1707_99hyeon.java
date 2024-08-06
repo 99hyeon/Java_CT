@@ -13,7 +13,7 @@ public class B1707_99hyeon {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         StringBuilder sb = new StringBuilder();
-        int num = Integer.parseInt(st.nextToken());
+        int num = Integer.parseInt(st.nextToken()); // test case 개수
 
         for(int i = 0; i < num; i++){
             st = new StringTokenizer(br.readLine());
